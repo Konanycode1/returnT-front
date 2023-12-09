@@ -1,0 +1,100 @@
+ .container-Home{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .profil-home{
+    width: 100%;
+    height: 11rem;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.content-home-prof{
+    border: 0.1rem dashed var(--btnColor);
+}
+.user-picture-home{
+    width: 10rem;
+    height: 10rem;
+}
+.info-user-home{
+    display: flex;
+    flex-direction: column;
+}
+.liste-One{
+    width: 100%;
+}
+
+.follow-home{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+} 
+.footReturnT img{
+    width: 10rem;
+    height: 8rem;
+}
+.active{
+    background-color: var(--btnColor);
+}
+.slab{
+    width:40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+.rond-element{
+    border: 0.1rem dashed var(--btnColor);
+}
+.titrePost{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.poste-card{
+    width: 80%;
+    height: 12rem;
+    border: 0.1rem dashed var(--btnColor);
+    background-color: rgb(69, 72, 75);
+}
+.titrePosted{
+    height: 40px;
+    
+}
+.postCard{
+    position: relative;
+    height: 15rem;
+    margin-bottom: 50px;
+    
+}
+.postUser{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    left: 10.5rem;
+    bottom:-3.4rem;
+}
+.blocPoste{
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.blocPoste::-webkit-scrollbar {
+    display: none;
+  }
+  .blocPoste {
+    -ms-overflow-style: none; 
+    overflow: -moz-scrollbars-none; 
+  }
+  .btnPosted{
+    width: 10rem;
+    position: absolute;
+    left:40rem;
+    top: 20rem;
+    z-index: 1;
+  }

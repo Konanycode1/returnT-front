@@ -1,0 +1,91 @@
+.container-Login{
+	width: 40rem;
+	height: 90vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.content-Login{
+	width: 70%;
+	height: 100%;
+	border: 0.1rem solid var(--btnColor);
+	border-radius: 1rem;
+
+}
+.logo-Login{
+	width: 100%;
+}
+.logo-Log{
+	width: 15rem;
+	height: 10rem;
+}
+.form-Login{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+.fields-login{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+.fields-login input{
+	width: 70%;
+	height: 2.2rem;
+	margin-top: 0.8rem;
+	border: none;
+	border-radius: 0.2rem;
+	background-color: aliceblue;
+}
+.fields-login button{
+	width: 10rem;
+	height: 2.2rem;
+	border: none;
+	background-color: var(--btnColor);
+	color: white;
+	border-radius: 0.2rem;
+	
+}
+.fields-login label{
+	font-size: 0.8rem;
+	font-weight: bolder;
+}
+.field-Login-info{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+.field-Login-info a{
+	height: 1.5rem;
+	margin-bottom: 1.1rem;
+}
+.fields-Sign{
+	width: 100%;
+	display: flex;
+}
+.content-Sign{
+	width: 80%;
+	height: 100%;
+	border: 0.1rem solid var(--btnColor);
+	border-radius: 1rem;
+	
+}
+@media screen  and (max-width:800px) {
+	.container-Login{
+		width: 100%;
+	}
+	.content-Login{
+		width: 100%;
+	}
+	.content-Sign{
+		width: 100%;
+		height: auto;
+	}
+	
+	
+}
