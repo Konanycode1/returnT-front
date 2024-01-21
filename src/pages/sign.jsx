@@ -11,51 +11,51 @@ function Sign(){
 		navigate('/')
 	}
 	return(
-		<div className='container-Login'>
-			<div className='content-Sign'>
-				<div className='logo-Login'>
-					<img src={logo} alt="" className='logo-Log'/>
+		<div classNameName='container-Login'>
+			<div classNameName='content-Sign'>
+				<div classNameName='logo-Login'>
+					<img src={logo} alt="" classNameName='logo-Log'/>
 				</div>
-				<form action="" className='form-Login'>
-                <div className="fields-Sign">
-                    <div className='fields-login'>
+				<form action="" classNameName='form-Login'>
+                <div classNameName="fields-Sign">
+                    <div classNameName='fields-login'>
 						<label htmlFor="email">Nom & Prénom</label>
 						<br />
 						<input type="text" id="email" />
 					</div>
-					<div className='fields-login'>
+					<div classNameName='fields-login'>
 						<label htmlFor="email">Email</label>
 						<br />
 						<input type="text" id="email" />
 					</div>
                 </div>
                    
-                <div className="fields-Sign">
-                    <div className='fields-login'>
+                <div classNameName="fields-Sign">
+                    <div classNameName='fields-login'>
                         <label htmlFor="lien">lien linkedln</label>
                         <br />
                         <input type="text" id="lien" />
                     </div> 
-                    <div className='fields-login'>
+                    <div classNameName='fields-login'>
                         <label htmlFor="contact">Contact</label>
                         <br />
                         <input type="text" id="contact" />
                     </div>
                  </div>
-                <div className="fields-Sign">
-                    <div className='fields-login'> 
+                <div classNameName="fields-Sign">
+                    <div classNameName='fields-login'> 
 						<label htmlFor="password">Mot de passe</label> <br />
 						<input type="password" id='password' />
 					</div>
-                    <div className='fields-login'> 
+                    <div classNameName='fields-login'> 
 						<label htmlFor="password">Confirmer Mot de passe</label> <br />
 						<input type="password" id='password' />
 					</div>
                 </div>
-					<div className='fields-login'>
+					<div classNameName='fields-login'>
 						<button >S'inscrire</button>
 					</div>
-					<div className='field-Login-info'>
+					<div classNameName='field-Login-info'>
 						<a href="" onClick={clickForgot}>Mot de passe oublié ?</a>
 						<a href="" onClick={clickLogin}>se connecter</a>
 					</div>

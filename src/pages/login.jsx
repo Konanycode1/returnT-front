@@ -26,30 +26,30 @@ function Login(){
 		<>
 		{
 			loading ? (
-				<div className="loader-container">
-				<div className="spinner"></div>
+				<div classNameName="loader-container">
+				<div classNameName="spinner"></div>
 			</div>
 			):
 			(
-				<div className='container-Login'>
-			<div className='content-Login'>
-				<div className='logo-Login'>
-					<img src={logo} alt="" className='logo-Log'/>
+				<div classNameName='container-Login'>
+			<div classNameName='content-Login'>
+				<div classNameName='logo-Login'>
+					<img src={logo} alt="" classNameName='logo-Log'/>
 				</div>
-				<form action="" className='form-Login'>
-					<div className='fields-login'>
+				<form action="" classNameName='form-Login'>
+					<div classNameName='fields-login'>
 						<label htmlFor="email">Email</label>
 						<br />
 						<input type="text" id="email" />
 					</div>
-					<div className='fields-login'> 
+					<div classNameName='fields-login'> 
 						<label htmlFor="password">Mot de passe</label> <br />
 						<input type="text" id='password' />
 					</div>
-					<div className='fields-login'>
+					<div classNameName='fields-login'>
 						<button onClick={clickHome} >Se connecter</button>
 					</div>
-					<div className='field-Login-info'>
+					<div classNameName='field-Login-info'>
 						<a href="" onClick={clickForgot}>Mot de passe oublié ?</a>
 						<a href="" onClick={clickSign}>Créer un compte !</a>
 					</div>

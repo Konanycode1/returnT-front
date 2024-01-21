@@ -10,25 +10,25 @@ function Forgot(){
 		navigate('/sign')
 	}
 	return(
-		<div className='container-Login'>
-			<div className='content-Login'>
-				<div className='logo-Login'>
-					<img src={logo} alt="" className='logo-Log'/>
+		<div classNameName='container-Login'>
+			<div classNameName='content-Login'>
+				<div classNameName='logo-Login'>
+					<img src={logo} alt="" classNameName='logo-Log'/>
 				</div>
-				<form action="" className='form-Login'>
-					<div className='fields-login'>
+				<form action="" classNameName='form-Login'>
+					<div classNameName='fields-login'>
 						<label htmlFor="email">Nouveau mot de passe</label>
 						<br />
 						<input type="text" id="email" />
 					</div>
-					<div className='fields-login'> 
+					<div classNameName='fields-login'> 
 						<label htmlFor="password">Confirmer Mot de passe</label> <br />
 						<input type="text" id='password' />
 					</div>
-					<div className='fields-login'>
+					<div classNameName='fields-login'>
 						<button >Modifier</button>
 					</div>
-					<div className='field-Login-info'>
+					<div classNameName='field-Login-info'>
 						<a href="" onClick={clickLogin}>se connecter</a>
 						<a href="" onClick={clickSign}>Créer un compte !</a>
 					</div>
