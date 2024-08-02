@@ -59,8 +59,8 @@ function Home(){
                                 </a>
                             </li>
                             <li className="flex items-center p-3 space-x-3 rounded-md">
-                            <button type="button" className="px-8 py-3 font-semibold border rounded border-orange-400  text-white ">10k follows</button>
-                            <button type="button" className="px-8 py-3 font-semibold border rounded border-orange-400 text-white ">10k followers</button>
+                                <button type="button" className="px-8 py-3 font-semibold border rounded border-orange-400  text-white ">10k follows</button>
+                                <button type="button" className="px-8 py-3 font-semibold border rounded border-orange-400 text-white ">10k followers</button>
                             </li>
                             <li className='flex items-center p-3 space-x-3 rounded-md'>
                                 <button type="button" className="px-8 py-3 font-semibold border border-orange-400 rounded  text-white ">Editer votre profile</button>
@@ -120,7 +120,7 @@ function Home(){
                     </div>
                     <div className='w-full h-[calc(100vh-64px)]  overflow-y-auto overflow-x-hidden'>
                         <div className="h-full">
-                            <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
+                            <div className="max-w-screen-md mx-auto px-4  lg:px-8 flex flex-col justify-between">
 
                                 {/* <div className="text-center">
                                     <p className="mt-4 text-sm leading-7 text-gray-500 font-regular">
